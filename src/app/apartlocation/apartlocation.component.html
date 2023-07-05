@@ -1,0 +1,17 @@
+<article>
+    <section class="listing">
+        <img class="listing-photo" [src]="AppartLocation.photo" alt="Exterior photo of {{AppartLocation.name}}">
+        <h2 class="listing-heading">{{ AppartLocation.name }}</h2>
+        <p class="listing-location">{{ AppartLocation.city}}, {{AppartLocation.state }}</p>
+        <a routerLink ="['/details', AppartLocation.id]">Learn More</a>
+
+    </section>
+
+    <section class="listing-features">
+        <h2 class="section-heading">About this apparts location</h2>
+        <ul>
+        <li>Units available: {{AppartLocation?.availableUnits}}</li>
+        <li>Does this location have wifi: {{AppartLocation?.wifi}}</li>
+        </ul>
+    </section>
+</article>
