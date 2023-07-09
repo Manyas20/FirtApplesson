@@ -15,3 +15,7 @@ export class ApartlocationComponent {
   @Input () AppartLocation!: AppartLocation;
 
 }
+
+
+
+

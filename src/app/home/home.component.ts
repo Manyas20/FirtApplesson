@@ -2,9 +2,9 @@ import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HusingLocationComponent } from '../HousingLocation/HousingLocation.component';
 import { Housinglocation } from '../HousingLocation';
+import { HousingService } from '../housing.service';
 import { ApartlocationComponent } from '../apartlocation/apartlocation.component';
 import { AppartLocation } from '../appart-location';
-import { HousingService } from '../housing.service';
 import { AppartsService } from '../apparts.service';
 
 @Component({

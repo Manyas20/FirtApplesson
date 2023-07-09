@@ -10,10 +10,6 @@ import { ApartlocationComponent } from './apartlocation/apartlocation.component'
   standalone: true,
   imports: [HomeComponent, 
     RouterModule,
-    DetailsComponent,
-    HusingLocationComponent ,
-    ApartlocationComponent,
-
   ],
   templateUrl:'./app.component.html',
   styleUrls: ['./app.component.css'],
